@@ -1,38 +1,440 @@
-.App {
-  text-align: center;
+@media (max-width: 1310px) {
+  .reviews-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .reviews-person {
+    width: 150px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .reviews-wrapper:nth-child(1) > div:nth-child(1) > h3:nth-child(2) {
+    width: 165px;
+  }
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media (max-width: 1290px) {
+  #main-text {
+    font-size: 40px;
+  }
+  .secondary-text {
+    font-size: 28px;
+    line-height: 36px;
+  }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 1148px) {
+  #telegram-button-text {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 1135px) {
+  #company-name,
+  #consultation,
+  #consultation-tel-num {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  #company-goal {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .links {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .relative {
+    padding-top: 52%;
+  }
+  #reviews-main-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .reviews-wrapper {
+    width: 50%;
+  }
+  .reviews-img {
+    width: 200px;
+    height: 200px;
+  }
+  .reviews-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .reviews-person {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #services {
+    width: 85%;
+  }
+  .footer-up-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .footer-bottom-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #telegram-button {
+    top: 81%;
+  }
+}
+@media (max-width: 1018px) {
+  #services-header-text {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .services-img {
+    width: 80px;
+    height: 80px;
+  }
+  .services-text,
+  #services-footer-text {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  #services {
+    width: 95%;
+  }
+  #about-us-mid-wrapper:nth-child(2) {
+    gap: 1rem;
+  }
+  #about-us-wrapper-1 {
+    width: 80%;
+  }
+  #about-us-wrapper-4 {
+    width: 60%;
+  }
+  #about-us-wrapper-text-1,
+  #about-us-wrapper-text-4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #about-us-wrapper-2 {
+    width: 50%;
+  }
+  div.w-\[40\%\]:nth-child(2) {
+    width: 45%;
+  }
+  #about-us-wrapper-text-2,
+  #about-us-wrapper-text-3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #about-us-wrapper-text-1,
+  #about-us-wrapper-text-4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  #contacts {
+    margin-top: 1rem;
+    padding-bottom: 0;
+  }
+  #telegram-button {
+    top: 84.5%;
+  }
+  h2.font-bold {
+    font-size: 26px;
+    line-height: 34px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 910px) {
+  .footer-up-text {
+    font-size: 20px;
+    line-height: 28px;
   }
-  to {
-    transform: rotate(360deg);
+  .footer-bottom-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  #main-img-div {
+    padding-top: 65%;
+  }
+  #main-img {
+    padding: 11%;
+  }
+  #main-text {
+    font-size: 36px;
+    line-height: 40px;
+    width: 95%;
+  }
+  .secondary-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  div.justify-center:nth-child(3) {
+    padding-right: 15px;
+  }
+}
+@media (max-width: 890px) {
+  #company-name-div {
+    width: 40%;
+  }
+}
+@media (max-width: 800px) {
+  .reviews-wrapper {
+    width: 70%;
+  }
+  #reviews {
+    margin-top: 4rem;
+  }
+  #reviews-header-text {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  #about-us-mid-wrapper:nth-child(2) {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #about-us-wrapper-1 {
+    width: 80%;
+    margin-left: 15%;
+  }
+  #about-us-wrapper-2 {
+    width: 95%;
+    padding-right: 10%;
+  }
+  div.w-\[40\%\]:nth-child(2) {
+    width: 95%;
+    padding-left: 10%;
+  }
+  #about-us-wrapper-4 {
+    width: 80%;
+    margin-right: 15%;
+  }
+  #about-us {
+    margin-top: 5rem;
+  }
+  #telegram-button {
+    width: 70px;
+    border-radius: 100%;
+  }
+  .footer-div {
+    width: 30%;
+  }
+  #contacts {
+    gap: 4%;
+  }
+}
+@media (max-width: 686px) {
+  #services-header-text:nth-child(1) {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .services-img {
+    width: 60px;
+    height: 60px;
+  }
+  .services-text,
+  #services-footer-text {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  #main-img-div {
+    padding-top: 80%;
+  }
+  #main-img {
+    padding: 18% 6% 6% 6%;
+  }
+  #main-text {
+    font-size: 28px;
+    line-height: 34px;
+    width: 100%;
+  }
+  .secondary-text {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 600px) {
+  #main-img {
+    gap: 80px;
+  }
+  .reviews-img {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .reviews-text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #contacts {
+    flex-direction: column;
+    padding-bottom: 2px;
+  }
+  .footer-div {
+    width: 90%;
+    height: 110px;
+    gap: 10px;
+  }
+  #company-name-div {
+    width: 55%;
+  }
+}
+
+@media (max-width: 530px) {
+  #main-img-div {
+    padding-top: 100%;
+  }
+  #main-img {
+    padding-top: 22%;
+    gap: 40px;
+  }
+  #main-text {
+    font-size: 24px;
+  }
+  #services {
+    padding: 20px;
+  }
+  #services-header-text:nth-child(1) {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  #services-footer-text {
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .services-text {
+    font-size: 20px;
+    line-height: 24px;
+    width: 90%;
+  }
+  .services-divs:nth-child(7) {
+    margin-bottom: 32px;
+  }
+
+  .services-divs {
+    margin-top: 20px;
+  }
+  .reviews-img {
+    width: 150px;
+    height: 150px;
+  }
+  .reviews-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .reviews-person {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .reviews-wrapper {
+    width: 80%;
+    padding: 18px;
+  }
+  #about-us-wrapper-text-2,
+  #about-us-wrapper-text-3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #about-us-wrapper-text-1,
+  #about-us-wrapper-text-4 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  #about-us-wrapper-1 {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #about-us-wrapper-2 {
+    width: 95%;
+    padding-right: 3%;
+  }
+  div.w-\[40\%\]:nth-child(2) {
+    width: 95%;
+    padding-left: 3%;
+  }
+  #about-us-wrapper-4 {
+    width: 90%;
+    margin-right: 5%;
+  }
+  .about-us-wrapper-divs {
+    padding: 16px;
+  }
+  .reviews-wrapper {
+    width: 95%;
+  }
+
+  #reviews-header-text {
+    font-size: 26px;
+    line-height: 34px;
+  }
+  #reviews {
+    gap: 0.5rem;
+  }
+  #reviews-main-wrapper {
+    gap: 0;
+  }
+  div.w-\[20\%\]:nth-child(2),
+  div.fixed:nth-child(2),
+  #about-us > div:nth-child(2) {
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  #main-img {
+    padding-top: 20%;
+    gap: 40px;
+  }
+  #main-img > div:nth-child(2) {
+    gap: 20px;
+  }
+  #main-text {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .secondary-text {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  #company-name-div {
+    width: 70%;
+  }
+  .reviews-img {
+    width: 150px;
+    height: 150px;
+  }
+  .reviews-img {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .reviews-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #telegram-button {
+    width: 60px;
+    height: 60px;
+  }
+  #telegram-button > svg:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+  }
+}
+@media (max-width: 350px) {
+  #main-img {
+    padding-top: 16%;
+    gap: 20px;
+  }
+  #main-text {
+    font-size: 22px;
+    line-height: 32px;
+    width: 100%;
+  }
+  .secondary-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .consultation-text {
+    font-size: 16px;
+    line-height: 20px;
   }
 }
