@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/landing-for-REREYA-LAW/static/css/main.5b5847c0.css",
-    "main.js": "/landing-for-REREYA-LAW/static/js/main.b739adb4.js",
+    "main.js": "/landing-for-REREYA-LAW/static/js/main.225e1144.js",
     "static/media/MainLogo1.jpg": "/landing-for-REREYA-LAW/static/media/MainLogo1.db6d27868099d4b0d400.jpg",
     "index.html": "/landing-for-REREYA-LAW/index.html",
     "main.5b5847c0.css.map": "/landing-for-REREYA-LAW/static/css/main.5b5847c0.css.map",
-    "main.b739adb4.js.map": "/landing-for-REREYA-LAW/static/js/main.b739adb4.js.map"
+    "main.225e1144.js.map": "/landing-for-REREYA-LAW/static/js/main.225e1144.js.map"
   },
   "entrypoints": [
     "static/css/main.5b5847c0.css",
-    "static/js/main.b739adb4.js"
+    "static/js/main.225e1144.js"
   ]
 }
