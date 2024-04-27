@@ -27,7 +27,7 @@ function Reviews() {
         >
           <div className="flex flex-col items-center h-full bg-[#F6F6F6] rounded-[50px] p-6 shadow-xl transition-all ease-out duration-300 hover:shadow-2xl">
             <img
-              src="/images/Anatoli.jpg"
+              src="images/Anatoli.jpg"
               alt="Anatoli"
               className="reviews-img size-[200px] rounded-[20px]"
             ></img>
@@ -52,7 +52,7 @@ function Reviews() {
         >
           <div className="flex flex-col items-center h-full bg-[#F6F6F6] rounded-[50px] p-6 shadow-xl transition-all ease-out duration-300 hover:shadow-2xl">
             <img
-              src="/images/Maksym.jpeg"
+              src="images/Maksym.jpeg"
               alt="Maksym"
               className="reviews-img size-[200px] rounded-[20px]"
             ></img>
@@ -77,7 +77,7 @@ function Reviews() {
         >
           <div className="flex flex-col items-center h-full bg-[#F6F6F6] rounded-[50px] p-6 shadow-xl transition-all ease-out duration-300 hover:shadow-2xl">
             <img
-              src="/images/Iryna.png"
+              src="images/Iryna.png"
               alt="Iryna"
               className="reviews-img size-[200px] rounded-[20px]"
             ></img>

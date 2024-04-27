@@ -23,7 +23,7 @@ function Services() {
       >
         <img
           className="services-img size-[100px] group-hover:scale-110 transition-all ease-out duration-300"
-          src="/images/img-1.png"
+          src="images/img-1.png"
           alt="img-1"
         ></img>
         <h1 className="services-text text-3xl font-semibold w-[60%]">
@@ -38,7 +38,7 @@ function Services() {
       >
         <img
           className="services-img size-[100px] group-hover:scale-110 transition-all ease-out duration-300"
-          src="/images/img-2.png"
+          src="images/img-2.png"
           alt="img-2"
         ></img>
         <h1 className="services-text text-3xl font-semibold w-[60%] text-right">
@@ -53,7 +53,7 @@ function Services() {
       >
         <img
           className="services-img size-[100px] group-hover:scale-110 transition-all ease-out duration-300"
-          src="/images/img-3.png"
+          src="images/img-3.png"
           alt="img-3"
         ></img>
         <h1 className="services-text text-3xl font-semibold w-[60%]">
@@ -69,7 +69,7 @@ function Services() {
       >
         <img
           className="services-img size-[100px] group-hover:scale-110 transition-all ease-out duration-300"
-          src="/images/img-4.png"
+          src="images/img-4.png"
           alt="img-4"
         ></img>
         <h1 className="services-text text-3xl font-semibold w-[60%] text-right">
@@ -84,7 +84,7 @@ function Services() {
       >
         <img
           className="services-img size-[100px] group-hover:scale-110 transition-all ease-out duration-300"
-          src="/images/img-5.png"
+          src="images/img-5.png"
           alt="img-5"
         ></img>
         <h1 className="services-text text-3xl font-semibold w-[60%]">
@@ -100,7 +100,7 @@ function Services() {
       >
         <img
           className="services-img size-[100px] group-hover:scale-110 transition-all ease-out duration-300"
-          src="/images/img-6.png"
+          src="images/img-6.png"
           alt="img-6"
         ></img>
         <h1 className="services-text text-3xl font-semibold w-[60%] text-right">
