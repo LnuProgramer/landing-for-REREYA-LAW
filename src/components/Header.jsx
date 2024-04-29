@@ -126,7 +126,7 @@ function Header({ screenWidth }) {
         } bg-[#d8d8d8ea]`}
         ref={menuRef}
       >
-        <div className="flex justify-center items-center h-[20%] w-full gap-[22px]">
+        <div className="flex justify-center items-center text-center h-[20%] w-full gap-[22px]">
           <h1 className="consultation-text font-semibold text-2xl h-7">
             Консультація 24/7
           </h1>
